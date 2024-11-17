@@ -331,3 +331,55 @@ ul {
     flex: 1 1 calc(50% - 8px);
   }
 }
+
+@media (max-width: 740px) {
+  .hero__container {
+    min-height: 363px;
+  }
+
+  .hero__image {
+    display: none;
+  }
+
+  .hero__title {
+    padding-bottom: 0;
+    font-size: 20px;
+    max-width: 263px;
+    margin: 0 auto;
+  }
+
+  .black-weight {
+    font-size: 38px;
+  }
+
+  .offer {
+    padding: 64px 0 32px;
+  }
+
+  .offer__container {
+    gap: 32px;
+  }
+
+  .offer__items {
+    flex-basis: 343px;
+    min-height: 248px;
+  }
+
+  .offer__item_4 {
+    min-height: 111px;
+  }
+}
+
+@media (max-width: 540px) {
+  .goods {
+    padding: 32px 0 85px;
+  }
+
+  .goods__container {
+    padding: 0 8px;
+  }
+
+  .goods__item {
+    flex-basis: 359px;
+  }
+}
